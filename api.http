@@ -1,0 +1,18 @@
+###
+GET http://127.0.0.1:3000/api/routes
+
+###
+POST http://localhost:3000/api/routes
+Content-Type: application/json
+
+{
+  "name": "nome da rota",
+  "source": {
+    "lat": -75.5036,
+    "lng": 51.1931
+  },
+  "destination": {
+    "lat": -62.7015,
+    "lng": -139.3209
+  }
+}
